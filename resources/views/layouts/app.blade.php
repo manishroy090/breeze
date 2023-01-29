@@ -9,7 +9,6 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-<<<<<<< HEAD
         <!-- Google fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
@@ -19,11 +18,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-=======
-
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
->>>>>>> f0fbe1f3fb851607ff0b866645be0c5247768002
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
@@ -39,7 +33,6 @@
             @endif
 
             <!-- Page Content -->
-<<<<<<< HEAD
 
     <div class="flex flex-row">
 
@@ -98,11 +91,5 @@
         </div>
 
 
-=======
-            <main>
-                {{ $slot }}
-            </main>
-        </div>
->>>>>>> f0fbe1f3fb851607ff0b866645be0c5247768002
     </body>
 </html>
