@@ -10,6 +10,7 @@ class Menu extends Model
     protected $tablename = "menus";
     protected $primarykey = "menuid";
     protected $fillable = [
+        'menuid',
         'menu',
         'menulinks'
     ];

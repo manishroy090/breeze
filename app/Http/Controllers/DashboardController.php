@@ -13,7 +13,7 @@ class DashboardController extends Controller
 
     public function index($menu){
         $menus = Menu::query()->get();
-       
+
 
         if($menus->count() > 0 ){
             foreach($menus as $menu){
@@ -23,11 +23,5 @@ class DashboardController extends Controller
             return view('welcome', compact('menus'));
         }
      }
-     public function jon(){
-        $menus = Menu::query()->get();
-
-
-        return view('welcome',compact('menus'));
-     }
-
+     
 }

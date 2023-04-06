@@ -12,14 +12,14 @@
 <body>
     <header>
 
-        <nav>
+        <nav class="">
 
-            <ul class="flex  bg-white border-b-2  h-14">
+            <ul class="flex bg-indigo-300 bg-white border-b-2  h-14">
 
                 @if (Route::has('login'))
 
                     @auth
-                        <li class="px-8 py-4 hover:bg-black hover:text-white"> <a href="{{ url('/dashboard') }}">Dashboard</a>
+                        <li class="px-8 py-4 hover:bg-black hover:text-white"> <a href="{{ route('dashboard') }}">Dashboard</a>
                         </li>
                         @foreach ($menus as $key => $menu)
                             <li class="px-8 py-4 hover:bg-black hover:text-white"><a
